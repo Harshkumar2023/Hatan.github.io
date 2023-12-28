@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    height: 45vh;
+    width: 100%;
+    background-image: url('resources/new\ bg.png');
+    background-repeat: repeat-x;
+    /* filter: blur(3px); */
+    background-size: contain;
+    overflow: hidden;
+}
+
+section{
+    flex-grow: 1;
+    height: 55vh;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+span{
+    text-decoration: double underline;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    filter: blur(0px);
+}
+
+
+p{
+    color: rgb(21, 255, 0);
+    text-decoration: underline;
+}
+
+#prop{
+    font-size: 24px;
+    color: hsl(0, 100%, 61%);
+}
+
+#buttons{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    height:10vh;
+    background-color: skyblue;
+    width: 10vw;
+    border-radius: 50%;
+    color: rgb(10, 0, 153);
+}
+
+#okay:hover{
+    background-color: rgb(45, 67, 190); 
+    font-size: 28px;   
+    color: #de6ae9;
+}
+

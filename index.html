@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>hehehehehehe</title>
+</head>
+<body>
+    <nav></nav>
+    <section>
+        <h1>Hii &nbsp; <span>TANYA</span>&nbsp; I have created this project just for you</h1>
+        <p>
+            Okay, So i have already asked you and you have said yes indirectly always now i want you to say yes, Please say yes
+
+        </p>
+        <h2>
+            Where do you live ?
+        </h2>
+
+        <h1 id="prop">Will you be my girlfriend [in personal space only] ????</h1>
+        <div id="buttons">
+            <button id="okay">
+                Yes
+            </button>
+            <button id="Not_okay">
+                No
+            </button>
+        </div>
+    </section>
+</body>
+<script>
+    var a = document.getElementById("Not_okay");
+    a.addEventListener('mouseenter', function() {
+    a.style.backgroundColor = 'rgb(45, 67, 190)';
+    a.style.color = '#de6ae9'
+    a.style.fontSize = '28px'
+    a.innerHTML = 'I Will';
+
+    a.addEventListener('mouseleave' , function(){
+        a.style.backgroundColor = 'skyblue'
+        a.style.fontSize = '16px'
+        a.style.color = 'rgb(10, 0, 153)'
+        a.innerHTML = 'Nope'
+    })
+  });
+
+  a.addEventListener('click' , function(){
+    alert("i Knew it you will accept my marriage proposal i Love you 1000 times more than anyone")
+  })
+
+  var b = document.getElementById('okay')
+  b.addEventListener('click' , function(){
+    alert("i already Knew it , you will accept my marriage proposal, i love you too")
+  })
+</script>
+</html>
